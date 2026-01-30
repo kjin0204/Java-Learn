@@ -23,7 +23,7 @@ class Solution {
         StringBuilder br = new StringBuilder();
         
         for(char c : list) {
-            if(br.length() == 1 && br.charAt(0) == '0') continue;
+            if(br.length() == 1 && br.charAt(0) == '0') break;
             br.append(c);
         }
         
